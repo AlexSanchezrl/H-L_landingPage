@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+::selection {
+  background-color: #bc4749; /* Cambia este valor al color que desees */
+  color: #fff; /* Cambia este valor al color del texto que desees */
+}
+.bg-principal { 
+
+  background-color: #5CB9FF;
+  opacity: 95%;
+}
+
+.bg-secondary { 
+
+  background-color: #015276;
+  opacity: 95%;
+}
+.bg-responsive-secondary { 
+
+  background-color: #015276;
+}
+.bg-red-principal {
+  background-color: #b44368;
+}
+
+.border-blue-secondary {
+  border-color: #015276;
+}
+.border-red-primary {
+  border-color: #b44368;
+}
+
+.animation-nav {
+  animation-name: slideDown;
+  animation-duration: 0.4s;
+  animation-timing-function: ease;
+}
+.bg-fullScreen {
+  background: linear-gradient(to right, #5CB9FF, #015276);
+}
+.border-blue-principal {
+  border-color: #5CB9FF;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.letter-mix {
+  color: white;
+  background-color: #0e0000;
+  opacity: 80;
+  font-size: 42px;
+  font-weight: 500;
+  mix-blend-mode: multiply;
+  padding: 12px;
+}
+
+
