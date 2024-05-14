@@ -1,1 +1,0 @@
-import{j as t}from"./index-CsgyqEB3.js";const s="https://AlexSanchezrl.github.io/H-L_landingPage/assets/entrevista-WjET81OE.png";function o(){return t.jsx("div",{className:" absolute right-8 bottom-5",children:t.jsx("button",{children:t.jsx("img",{width:90,src:s})})})}export{o as default};
